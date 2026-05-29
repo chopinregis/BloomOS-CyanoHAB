@@ -33,20 +33,9 @@ Inquiries: regisndetene@gmail.com  ·  [SPA Inc. profile](https://github.com/cho
 **CyanoHAB Protocol / Sovereign Process Architecture**
 
 
-NOAA/NCCOS — Master Architectural Specification
+Master Architectural Specification — NOAA/NCCOS Methodology Lineage
 
 **v1.0 REV3**
-
-
-Addressed to:
-
-**Dr. Richard P. Stumpf — Oceanographer, NOAA National Centers for Coastal Ocean Science**
-
-Dr. Timothy T. Wynne — HAB Forecasting Branch, NOAA/NCCOS
-
-Dr. Blake Schaeffer — Research Ecologist, U.S. EPA / CyAN Project Lead
-
-Andrew Meredith — NOAA Contractor, SAPS Development
 
 
 **Author: Regis Benoit Brice Nde Tene**
@@ -56,9 +45,8 @@ Lead Architect Designation: Sovereign Process Architecture
 Date: March 2026  •  Document Class: Scientific Operating System Architecture
 
 
-Distribution: NOAA/NCCOS HAB Forecasting Branch + EPA/CyAN + Halifax Regional Municipality
 
-***REV3 Scope:** This revision incorporates final technical recommendations from the REV2 multi-agency review. Additions include: physical justification for Agency Score decay (bloom-cycle alignment); H3 handshake automatic fail logic; explicit sensor uncertainty bounds (±36% for 10-day composites); PCR-8 governing predictive escalations; corrected unit semantics (Appendix F); and the Section 12 Toledo 2014 counterfactual pre-mortem. No implementation is authorized without completed calibration of Section 11 parameters.*
+***REV3 Scope:** This revision incorporates final technical refinements following internal review. Additions include: physical justification for Agency Score decay (bloom-cycle alignment); H3 handshake automatic fail logic; explicit sensor uncertainty bounds (±36% for 10-day composites); PCR-8 governing predictive escalations; corrected unit semantics (Appendix F); and the Section 12 Toledo 2014 counterfactual pre-mortem. No implementation is authorized without completed calibration of Section 11 parameters.*
 
 
 
@@ -75,18 +63,6 @@ Distribution: NOAA/NCCOS HAB Forecasting Branch + EPA/CyAN + Halifax Regional Mu
 | v1.0 REV2 | 2026-02-24 | RBBNT | Integration of Halifax protocols and CyanNet fallback logic. | Superseded |
 | v1.0 REV3 | 2026-03-06 | RBBNT | **Current Master Specification**: Final peer-review refinements; Appendix E/F added. | **Current** |
 
-
-## **Distribution Table**
-
-| **Recipient** | **Title** | **Organization** | **Role** |
-| - | - | - | - |
-| Dr. Richard P. Stumpf | Oceanographer | NOAA/NCCOS | Primary Domain Authority |
-| Dr. Timothy T. Wynne | Oceanographer | NOAA/NCCOS | CI Algorithm Co-Developer |
-| Dr. Blake Schaeffer | Research Scientist | EPA/ORD | CyAN Project Lead |
-| Andrew Meredith | NOAA Contractor | Consolidated Safety Services Inc. | SAPS Development |
-| NOAA HAB Forecasting Branch | Operational Team | NOAA/NOS | Operational Users |
-| Halifax Regional Municipality | Environmental Health | HRM | Municipal Governance Pilot |
-| Regis Benoit Brice Nde Tene | Lead Architect | Sovereign Process Architecture | Author/Internal Master |
 
 
 # Table of Contents
@@ -1013,7 +989,7 @@ Appendix E specifies the exact datasets, sample size requirements, statistical m
 | Required Dataset | Paired satellite CI composite + microcystin / chl-a lab results with co-located sampling. Minimum 5 bloom seasons from Lake Erie (2018–2025 preferred). |
 | Minimum Sample Size | ≥1,000 paired satellite-lab observations across ≥5 seasons; minimum 200 per season; ≥5 unique lake locations per season. |
 | Statistical Method | ROC curve analysis (Receiver Operating Characteristic). Threshold selected to minimize false negatives subject to acceptable false positive rate. Report AUC, sensitivity, specificity, PPV at candidate thresholds 0.0003, 0.0005, 0.001, 0.0015, 0.002. |
-| Responsible Authority | Dr. Richard P. Stumpf (NOAA/NCCOS) and Dr. Timothy T. Wynne (NOAA/NCCOS) |
+| Methodology Reference Authority | NOAA/NCCOS — CI algorithm published methodology (Stumpf et al. 2012; Wynne et al. 2018) |
 | Acceptance Criterion | Sensitivity ≥0.90 at selected threshold. AUC ≥0.80 for microcystin \>10 μg/L co-occurrence detection. |
 | Failure Mode | If existing archive is insufficient (≥5 seasons not available), deploy single-season operational monitoring with Tier 2 certification pending 5-season accumulation. |
 
@@ -1025,7 +1001,7 @@ Appendix E specifies the exact datasets, sample size requirements, statistical m
 | Required Dataset | Multi-sensor paired CI vs. chl-a laboratory measurements from the NOAA/NCCOS CI archive. Separate datasets required for OLCI, MODIS, and MERIS to confirm sensor-specific MAE values. CyanNet-derived CI requires independent MAE assessment. |
 | Minimum Sample Size | ≥500 paired observations per sensor type; ≥100 from each of 5 bloom seasons; geographically distributed across western Lake Erie basin. |
 | Statistical Method | Log-transformed linear regression (log(CI\_satellite) vs. log(CI\_lab\_derived)). Calculate MAE, RMSE, bias. Confirm whether 1.3 from Seegers et al. (2021) holds for current SAPS processing version. |
-| Responsible Authority | Dr. Blake Schaeffer (EPA/CyAN) coordinating with Seegers dataset; NOAA/NCCOS validation. |
+| Methodology Reference Authority | EPA/CyAN published methodology (Seegers et al. 2021) with NOAA/NCCOS validation lineage. |
 | Acceptance Criterion | Updated MAE within 20% of 1.3 confirms current threshold. If MAE \> 1.56, DI = 2.0 trigger must be recalibrated proportionally. |
 | Failure Mode | If sensor-specific MAE differs materially between OLCI and MODIS, separate DI thresholds must be maintained per active sensor. |
 
