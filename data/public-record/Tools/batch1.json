@@ -1,0 +1,10 @@
+[
+ ["https://www.ncei.noaa.gov/data/oceans/archive/arc0135/0187718/2.2/data/0-data/", "Documentation/GLERL_2012_2018_index.html"],
+ ["https://www.ndbc.noaa.gov/data/historical/stdmet/45005h2019.txt.gz", "Originals/NDBC/45005h2019.txt.gz"],
+ ["https://waterservices.usgs.gov/nwis/dv/?format=json&sites=04193500&startDT=2014-01-01&endDT=2014-12-31&parameterCd=00060&siteStatus=all", "Originals/USGS/04193500_discharge_2014.json"],
+ ["https://waterservices.usgs.gov/nwis/dv/?format=json&sites=04193500&startDT=2019-01-01&endDT=2019-12-31&parameterCd=00060&siteStatus=all", "Originals/USGS/04193500_discharge_2019.json"],
+ ["https://www.ncei.noaa.gov/archive/accession/0239686", "Documentation/Satellite_accession_0239686.html"],
+ ["https://essd.copernicus.org/articles/15/3853/2023/essd-15-3853-2023.pdf", "Documentation/GLERL_monitoring_paper_2023.pdf"],
+ ["https://www.ndbc.noaa.gov/station_page.php?station=45005", "Documentation/NDBC_station_45005.html"],
+ ["https://www.ndbc.noaa.gov/faq/measdes.shtml", "Documentation/NDBC_measurement_definitions.html"]
+]

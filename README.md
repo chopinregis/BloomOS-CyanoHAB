@@ -4,6 +4,10 @@
 
 A complete architectural specification encoding established NOAA/NCCOS cyanobacteria detection methodology — the Cyanobacteria Index (CI), 10-day maximum-value composite windows, and the V0–V4 quality flag sequence documented in NOAA Technical Memorandum NOS NCCOS 252 — into deterministic, auditable governance software with an immutable SHA-256 hash-chain Flight Recorder audit trail. The architecture treats the CI not as a visualization product but as a process control signal.
 
+![BloomOS Basin Console: 3D replay of a bloom season in western Lake Erie, with the governance state of every claim](docs/screenshots/console-hero.jpg)
+
+*BloomOS Basin Console, an interface demonstrator for this specification. Every value shown is synthetic; it is not observed data and is not affiliated with or endorsed by NOAA. [More screenshots](docs/screenshots/README.md) · [Public-record data for 2014 and 2019](data/public-record/README.md)*
+
 ---
 
 ## Publication Context
