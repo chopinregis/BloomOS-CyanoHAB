@@ -6,7 +6,7 @@ then read **[Integration Notes.md](Integration%20Notes.md)** before using any of
 
 | Folder / file | Contents |
 | --- | --- |
-| `Originals/` | Downloaded source bytes, unmodified and checksum-verified: GLERL sample and station CSVs, compressed NDBC 45005 annual files, USGS daily-discharge responses, 2014 satellite GeoTIFFs and bulletins |
+| `Originals/` | Downloaded source bytes, unmodified and checksum-verified: GLERL sample and station CSVs, compressed NDBC 45005 annual files, USGS daily-discharge responses, NOAA satellite GeoTIFFs, bulletins and product notes for 2014 and 2019 |
 | `Prepared Data/` | Year-specific GLERL/CIGLR sample tables (CSV and structured JSON), station registry, quality flags, NDBC buoy 45005 records, USGS Maumee River daily discharge, satellite catalog, coverage summary |
 | `Satellite Previews/` | PNG previews of 193 archived NOAA Cyanobacteria Index GeoTIFFs (display only; no georeferencing, colours are not toxin values) |
 | `Documentation/` | Archive metadata, directory snapshots, the GLERL sampling-location map, the open-access methods paper, and `Verification.json` |
@@ -14,9 +14,10 @@ then read **[Integration Notes.md](Integration%20Notes.md)** before using any of
 | `Source Manifest.csv`, `acquisition.jsonl` | Source URL, retrieval time, byte count and SHA-256 for every downloaded file |
 | `Data Overview.html` | Readable inventory with a date slider through the satellite previews (open locally in a browser) |
 
-**Not included yet:** `Originals/Satellite/2019/` (144 source GeoTIFFs, 31 bulletin PDFs and 2
-product notes). The 2019 satellite links in the manifest and the overview will not resolve until it
-is added. The 2014 satellite originals and everything else, including all previews, are complete.
+**Not included yet:** 6 of the 144 GeoTIFFs in `Originals/Satellite/2019/image/` (merged Aqua/Terra
+products from Jun 27, Jul 24 (two variants), Jul 28, Aug 23 and Sep 16). Their previews are present;
+only the overview's "Original GeoTIFF" links for those six frames will not resolve until they are
+added. Everything else is complete and checksum-verified.
 
 ## Sources and terms
 
