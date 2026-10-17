@@ -1,0 +1,6 @@
+[
+ ["https://www.ncei.noaa.gov/data/oceans/archive/arc0152/0209116/1.1/data/0-data/lake_erie_habs_field_sampling_results_2019.csv", "Originals/GLERL/lake_erie_habs_field_sampling_results_2019.csv"],
+ ["https://www.ncei.noaa.gov/data/oceans/archive/arc0152/0209116/1.1/data/0-data/lake_erie_habs_field_sampling_master_coordinates_2019.csv", "Originals/GLERL/lake_erie_habs_field_sampling_master_coordinates_2019.csv"],
+ ["https://www.ncei.noaa.gov/data/oceans/archive/arc0152/0209116/1.1/data/0-data/3J2J2H-ISO-19115-2.xml", "Documentation/GLERL_2019_metadata.xml"],
+ ["https://www.ncei.noaa.gov/archive/accession/0209038", "Documentation/Satellite_accession_0209038.html"]
+]

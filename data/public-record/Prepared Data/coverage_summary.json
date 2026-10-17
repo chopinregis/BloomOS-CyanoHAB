@@ -1,0 +1,188 @@
+{
+  "glerl": {
+    "2014": {
+      "rows": 126,
+      "dates": 21,
+      "start": "2014-05-27",
+      "end": "2014-11-03",
+      "registered_sites": [
+        "WE12",
+        "WE13",
+        "WE2",
+        "WE4",
+        "WE6",
+        "WE8"
+      ],
+      "unregistered_site_labels": [
+        "1-Aug",
+        "2-Aug"
+      ],
+      "flagged_rows": 3,
+      "particulate_microcystin": {
+        "numeric": 89,
+        "<": 37,
+        ">": 0,
+        "missing": 0,
+        "unparsed": 0
+      },
+      "dissolved_microcystin": {
+        "numeric": 49,
+        "<": 9,
+        ">": 0,
+        "missing": 68,
+        "unparsed": 0
+      }
+    },
+    "2019": {
+      "rows": 219,
+      "dates": 18,
+      "start": "2019-04-30",
+      "end": "2019-10-07",
+      "registered_sites": [
+        "WE12",
+        "WE13",
+        "WE16",
+        "WE2",
+        "WE4",
+        "WE6",
+        "WE8",
+        "WE9"
+      ],
+      "unregistered_site_labels": [
+        "2019.1",
+        "2019.2"
+      ],
+      "flagged_rows": 84,
+      "particulate_microcystin": {
+        "numeric": 104,
+        "<": 108,
+        ">": 0,
+        "missing": 7,
+        "unparsed": 0
+      },
+      "dissolved_microcystin": {
+        "numeric": 68,
+        "<": 144,
+        ">": 0,
+        "missing": 7,
+        "unparsed": 0
+      }
+    }
+  },
+  "ndbc": {
+    "2014": {
+      "rows": 4975,
+      "start": "2014-05-01T00:50:00Z",
+      "end": "2014-11-30T22:50:00Z",
+      "missing_by_variable": {
+        "WDIR": 31,
+        "WSPD": 31,
+        "GST": 43,
+        "WVHT": 240,
+        "DPD": 2083,
+        "APD": 240,
+        "MWD": 2083,
+        "PRES": 43,
+        "ATMP": 9,
+        "WTMP": 225,
+        "DEWP": 4975,
+        "VIS": 4975,
+        "TIDE": 4975
+      },
+      "units": {
+        "YY": "yr",
+        "MM": "mo",
+        "DD": "dy",
+        "hh": "hr",
+        "mm": "mn",
+        "WDIR": "degT",
+        "WSPD": "m/s",
+        "GST": "m/s",
+        "WVHT": "m",
+        "DPD": "sec",
+        "APD": "sec",
+        "MWD": "degT",
+        "PRES": "hPa",
+        "ATMP": "degC",
+        "WTMP": "degC",
+        "DEWP": "degC",
+        "VIS": "mi",
+        "TIDE": "ft"
+      }
+    },
+    "2019": {
+      "rows": 26387,
+      "start": "2019-05-24T15:50:00Z",
+      "end": "2019-11-25T23:40:00Z",
+      "missing_by_variable": {
+        "WDIR": 24,
+        "WSPD": 29,
+        "GST": 29,
+        "WVHT": 22020,
+        "DPD": 23394,
+        "APD": 22020,
+        "MWD": 23394,
+        "PRES": 43,
+        "ATMP": 43,
+        "WTMP": 20568,
+        "DEWP": 43,
+        "VIS": 26387,
+        "TIDE": 26387
+      },
+      "units": {
+        "YY": "yr",
+        "MM": "mo",
+        "DD": "dy",
+        "hh": "hr",
+        "mm": "mn",
+        "WDIR": "degT",
+        "WSPD": "m/s",
+        "GST": "m/s",
+        "WVHT": "m",
+        "DPD": "sec",
+        "APD": "sec",
+        "MWD": "degT",
+        "PRES": "hPa",
+        "ATMP": "degC",
+        "WTMP": "degC",
+        "DEWP": "degC",
+        "VIS": "mi",
+        "TIDE": "ft"
+      }
+    }
+  },
+  "usgs": {
+    "2014": {
+      "rows": 365,
+      "start": "2014-01-01",
+      "end": "2014-12-31",
+      "unit": "ft3/s",
+      "statistic": "daily mean",
+      "missing": 0
+    },
+    "2019": {
+      "rows": 365,
+      "start": "2019-01-01",
+      "end": "2019-12-31",
+      "unit": "ft3/s",
+      "statistic": "daily mean",
+      "missing": 0
+    }
+  },
+  "satellite": {
+    "2014": {
+      "geotiffs": 49,
+      "unique_dates": 34,
+      "start": "2014-07-21",
+      "end": "2014-11-02",
+      "bulletins": 35
+    },
+    "2019": {
+      "geotiffs": 144,
+      "unique_dates": 121,
+      "start": "2019-05-31",
+      "end": "2019-10-09",
+      "bulletins": 31
+    }
+  }
+}

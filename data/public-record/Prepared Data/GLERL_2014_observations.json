@@ -1,0 +1,5410 @@
+[
+  {
+    "record_id": "glerl-2014-L162",
+    "date_iso": "2014-05-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 162,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:47",
+    "latitude_sample": 41.7624,
+    "longitude_sample": -83.3312,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "3.15",
+      "value": 3.15,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "67.2",
+      "value": 67.2,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L163",
+    "date_iso": "2014-05-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 163,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:14",
+    "latitude_sample": 41.8266,
+    "longitude_sample": -83.195,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.13",
+      "value": 0.13,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.67",
+      "value": 5.67,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L164",
+    "date_iso": "2014-05-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 164,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:47",
+    "latitude_sample": 41.7091,
+    "longitude_sample": -83.3813,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.12",
+      "value": 0.12,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.97",
+      "value": 1.97,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "50.62",
+      "value": 50.62,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L165",
+    "date_iso": "2014-05-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 165,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:04",
+    "latitude_sample": 41.8192,
+    "longitude_sample": -83.3592,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.21",
+      "value": 0.21,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "4.31",
+      "value": 4.31,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L166",
+    "date_iso": "2014-05-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 166,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:16",
+    "latitude_sample": 41.7089,
+    "longitude_sample": -83.2498,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.86",
+      "value": 3.86,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L167",
+    "date_iso": "2014-05-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 167,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:44",
+    "latitude_sample": 41.743,
+    "longitude_sample": -83.1349,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.07",
+      "value": 0.07,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.52",
+      "value": 3.52,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L168",
+    "date_iso": "2014-06-16",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 168,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:35",
+    "latitude_sample": 41.7655,
+    "longitude_sample": -83.3294,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.31",
+      "value": 0.31,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "10.72",
+      "value": 10.72,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L169",
+    "date_iso": "2014-06-16",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 169,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:30",
+    "latitude_sample": 41.825,
+    "longitude_sample": -83.1923,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.44",
+      "value": 0.44,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "12.26",
+      "value": 12.26,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L170",
+    "date_iso": "2014-06-16",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 170,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:22",
+    "latitude_sample": 41.7154,
+    "longitude_sample": -83.3821,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.32",
+      "value": 0.32,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.82",
+      "value": 1.82,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "23.04",
+      "value": 23.04,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L171",
+    "date_iso": "2014-06-16",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 171,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "14:20",
+    "latitude_sample": 41.8343,
+    "longitude_sample": -83.3604,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.25",
+      "value": 0.25,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.45",
+      "value": 1.45,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.74",
+      "value": 5.74,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L172",
+    "date_iso": "2014-06-16",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 172,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:12",
+    "latitude_sample": 41.7041,
+    "longitude_sample": -83.2561,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.06",
+      "value": 1.06,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "34.37",
+      "value": 34.37,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L173",
+    "date_iso": "2014-06-16",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 173,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:58",
+    "latitude_sample": 41.7419,
+    "longitude_sample": -83.1392,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.21",
+      "value": 0.21,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.09",
+      "value": 5.09,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L174",
+    "date_iso": "2014-06-30",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 174,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:12",
+    "latitude_sample": 41.7628,
+    "longitude_sample": -83.3301,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.69",
+      "value": 1.69,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "19.94",
+      "value": 19.94,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L175",
+    "date_iso": "2014-06-30",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 175,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:48",
+    "latitude_sample": 41.8258,
+    "longitude_sample": -83.1956,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.59",
+      "value": 1.59,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "12.93",
+      "value": 12.93,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L176",
+    "date_iso": "2014-06-30",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 176,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:05",
+    "latitude_sample": 41.7167,
+    "longitude_sample": -83.3834,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.4",
+      "value": 0.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "6.57",
+      "value": 6.57,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "29.81",
+      "value": 29.81,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L177",
+    "date_iso": "2014-06-30",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 177,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:37",
+    "latitude_sample": 41.8334,
+    "longitude_sample": -83.3634,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "4.49",
+      "value": 4.49,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "35.97",
+      "value": 35.97,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L178",
+    "date_iso": "2014-06-30",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 178,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:38",
+    "latitude_sample": 41.7032,
+    "longitude_sample": -83.2575,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.63",
+      "value": 0.63,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "7.88",
+      "value": 7.88,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L179",
+    "date_iso": "2014-06-30",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 179,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:13",
+    "latitude_sample": 41.7415,
+    "longitude_sample": -83.1372,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.81",
+      "value": 0.81,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "10.62",
+      "value": 10.62,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L180",
+    "date_iso": "2014-07-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 180,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:53",
+    "latitude_sample": 41.7646,
+    "longitude_sample": -83.3302,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.29",
+      "value": 0.29,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.18",
+      "value": 1.18,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "6.85",
+      "value": 6.85,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L181",
+    "date_iso": "2014-07-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 181,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:22",
+    "latitude_sample": 41.8267,
+    "longitude_sample": -83.1967,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.55",
+      "value": 3.55,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L182",
+    "date_iso": "2014-07-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 182,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:23",
+    "latitude_sample": 41.7145,
+    "longitude_sample": -83.3795,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "13.75",
+      "value": 13.75,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "46.27",
+      "value": 46.27,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L183",
+    "date_iso": "2014-07-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 183,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "14:37",
+    "latitude_sample": 41.8347,
+    "longitude_sample": -83.3609,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.09",
+      "value": 0.09,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.15",
+      "value": 3.15,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L184",
+    "date_iso": "2014-07-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 184,
+    "qa_flags": "sample_coordinates_missing",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:09",
+    "latitude_sample": null,
+    "longitude_sample": null,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.12",
+      "value": 0.12,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "6.98",
+      "value": 6.98,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L185",
+    "date_iso": "2014-07-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 185,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:44",
+    "latitude_sample": 41.7426,
+    "longitude_sample": -83.1368,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.14",
+      "value": 0.14,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.3",
+      "value": 3.3,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L186",
+    "date_iso": "2014-07-14",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 186,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:00",
+    "latitude_sample": 41.7629,
+    "longitude_sample": -83.3307,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.02",
+      "value": 1.02,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "17.18",
+      "value": 17.18,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "10.43",
+      "value": 10.43,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L187",
+    "date_iso": "2014-07-14",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 187,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:30",
+    "latitude_sample": 41.8266,
+    "longitude_sample": -83.1937,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.17",
+      "value": 0.17,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.71",
+      "value": 0.71,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.96",
+      "value": 3.96,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L188",
+    "date_iso": "2014-07-14",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 188,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:38",
+    "latitude_sample": 41.71,
+    "longitude_sample": -83.3812,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.57",
+      "value": 0.57,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.87",
+      "value": 0.87,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "19.29",
+      "value": 19.29,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L189",
+    "date_iso": "2014-07-14",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 189,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:15",
+    "latitude_sample": 41.8353,
+    "longitude_sample": -83.3503,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.5",
+      "value": 0.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.56",
+      "value": 0.56,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.79",
+      "value": 3.79,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L190",
+    "date_iso": "2014-07-14",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 190,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:17",
+    "latitude_sample": 41.7037,
+    "longitude_sample": -83.2607,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.73",
+      "value": 0.73,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "7.74",
+      "value": 7.74,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L191",
+    "date_iso": "2014-07-14",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 191,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:49",
+    "latitude_sample": 41.7423,
+    "longitude_sample": -83.1387,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.44",
+      "value": 0.44,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.96",
+      "value": 0.96,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "4.28",
+      "value": 4.28,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L192",
+    "date_iso": "2014-07-21",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 192,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "9:41",
+    "latitude_sample": 41.7643,
+    "longitude_sample": -83.3323,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.94",
+      "value": 4.94,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "5.13",
+      "value": 5.13,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "16.26",
+      "value": 16.26,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L193",
+    "date_iso": "2014-07-21",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 193,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:15",
+    "latitude_sample": 41.8272,
+    "longitude_sample": -83.1956,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.82",
+      "value": 1.82,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "6.14",
+      "value": 6.14,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.95",
+      "value": 5.95,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L194",
+    "date_iso": "2014-07-21",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 194,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:18",
+    "latitude_sample": 41.7135,
+    "longitude_sample": -83.3798,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "19.18",
+      "value": 19.18,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "148.94",
+      "value": 148.94,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "68.1",
+      "value": 68.1,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L195",
+    "date_iso": "2014-07-21",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 195,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:01",
+    "latitude_sample": 41.834,
+    "longitude_sample": -83.3632,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.74",
+      "value": 3.74,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.03",
+      "value": 1.03,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "8.8",
+      "value": 8.8,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L196",
+    "date_iso": "2014-07-21",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 196,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:03",
+    "latitude_sample": 41.7037,
+    "longitude_sample": -83.2564,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "6.14",
+      "value": 6.14,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "5.59",
+      "value": 5.59,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "18.62",
+      "value": 18.62,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L197",
+    "date_iso": "2014-07-21",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 197,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:43",
+    "latitude_sample": 41.7423,
+    "longitude_sample": -83.1371,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "2.81",
+      "value": 2.81,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.76",
+      "value": 1.76,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "7.81",
+      "value": 7.81,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L198",
+    "date_iso": "2014-07-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 198,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "9:42",
+    "latitude_sample": 41.7646,
+    "longitude_sample": -83.3308,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.98",
+      "value": 3.98,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "8.81",
+      "value": 8.81,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "10.02",
+      "value": 10.02,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L199",
+    "date_iso": "2014-07-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 199,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:17",
+    "latitude_sample": 41.8273,
+    "longitude_sample": -83.1952,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.01",
+      "value": 1.01,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "4.77",
+      "value": 4.77,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "6.12",
+      "value": 6.12,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L200",
+    "date_iso": "2014-07-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 200,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:17",
+    "latitude_sample": 41.7123,
+    "longitude_sample": -83.382,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "37.06",
+      "value": 37.06,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "201.19",
+      "value": 201.19,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "126.14",
+      "value": 126.14,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L201",
+    "date_iso": "2014-07-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 201,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:09",
+    "latitude_sample": 41.8352,
+    "longitude_sample": -83.3626,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "5.85",
+      "value": 5.85,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "49.57",
+      "value": 49.57,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "42.11",
+      "value": 42.11,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L202",
+    "date_iso": "2014-07-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 202,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:53",
+    "latitude_sample": 41.7028,
+    "longitude_sample": -83.2579,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "6.93",
+      "value": 6.93,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "27.74",
+      "value": 27.74,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "33.15",
+      "value": 33.15,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L203",
+    "date_iso": "2014-07-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 203,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:27",
+    "latitude_sample": 41.7387,
+    "longitude_sample": -83.1364,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.74",
+      "value": 1.74,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "2.56",
+      "value": 2.56,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.63",
+      "value": 5.63,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L204",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 204,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:46",
+    "latitude_sample": 41.7652,
+    "longitude_sample": -83.3306,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.33",
+      "value": 4.33,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "39.01",
+      "value": 39.01,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "29.44",
+      "value": 29.44,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L205",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 205,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "14:45",
+    "latitude_sample": 41.8286,
+    "longitude_sample": -83.1942,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.54",
+      "value": 1.54,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "15.38",
+      "value": 15.38,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "18.11",
+      "value": 18.11,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L206",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 206,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:30",
+    "latitude_sample": 41.7113,
+    "longitude_sample": -83.3772,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "10.14",
+      "value": 10.14,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "93.15",
+      "value": 93.15,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "71.62",
+      "value": 71.62,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L207",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 207,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "15:30",
+    "latitude_sample": 41.8376,
+    "longitude_sample": -83.3637,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.31",
+      "value": 4.31,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "21.34",
+      "value": 21.34,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "46.53",
+      "value": 46.53,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L208",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 208,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:48",
+    "latitude_sample": 41.7026,
+    "longitude_sample": -83.263,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "9.28",
+      "value": 9.28,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "45.43",
+      "value": 45.43,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "54.46",
+      "value": 54.46,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L209",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 209,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "14:08",
+    "latitude_sample": 41.7423,
+    "longitude_sample": -83.1381,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.17",
+      "value": 1.17,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "8.46",
+      "value": 8.46,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "6.74",
+      "value": 6.74,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L210",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 210,
+    "qa_flags": "site_identifier_not_in_master_registry",
+    "site": "1-Aug",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:00",
+    "latitude_sample": 41.7152,
+    "longitude_sample": -83.3287,
+    "nominal_station": null,
+    "particulate_microcystin_ug_L": {
+      "raw": "8.19",
+      "value": 8.19,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "34.93",
+      "value": 34.93,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "51.2",
+      "value": 51.2,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L211",
+    "date_iso": "2014-08-04",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 211,
+    "qa_flags": "site_identifier_not_in_master_registry",
+    "site": "2-Aug",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:25",
+    "latitude_sample": 41.676,
+    "longitude_sample": -83.2388,
+    "nominal_station": null,
+    "particulate_microcystin_ug_L": {
+      "raw": "10.58",
+      "value": 10.58,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "64.57",
+      "value": 64.57,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "69.44",
+      "value": 69.44,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L212",
+    "date_iso": "2014-08-11",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 212,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:34",
+    "latitude_sample": 41.7643,
+    "longitude_sample": -83.332,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "29.3",
+      "value": 29.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "268.78",
+      "value": 268.78,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "71.96",
+      "value": 71.96,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L213",
+    "date_iso": "2014-08-11",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 213,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:30",
+    "latitude_sample": 41.8263,
+    "longitude_sample": -83.1948,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "11.4",
+      "value": 11.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "52.11",
+      "value": 52.11,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "30.23",
+      "value": 30.23,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L214",
+    "date_iso": "2014-08-11",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 214,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:00",
+    "latitude_sample": 41.712,
+    "longitude_sample": -83.3792,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "36.7",
+      "value": 36.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "70.87",
+      "value": 70.87,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "97.96",
+      "value": 97.96,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L215",
+    "date_iso": "2014-08-11",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 215,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "14:02",
+    "latitude_sample": 41.8335,
+    "longitude_sample": -83.3631,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "8.9",
+      "value": 8.9,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "74.46",
+      "value": 74.46,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "45.89",
+      "value": 45.89,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L216",
+    "date_iso": "2014-08-11",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 216,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:31",
+    "latitude_sample": 41.7033,
+    "longitude_sample": -83.2587,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "2.9",
+      "value": 2.9,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "16.97",
+      "value": 16.97,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "11.58",
+      "value": 11.58,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L217",
+    "date_iso": "2014-08-11",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 217,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:02",
+    "latitude_sample": 41.7415,
+    "longitude_sample": -83.1484,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.4",
+      "value": 3.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "5.86",
+      "value": 5.86,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "8.81",
+      "value": 8.81,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L218",
+    "date_iso": "2014-08-18",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 218,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "9:38",
+    "latitude_sample": 41.758,
+    "longitude_sample": -83.3336,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.71",
+      "value": 4.71,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "23.89",
+      "value": 23.89,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "39.39",
+      "value": 39.39,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L219",
+    "date_iso": "2014-08-18",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 219,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:31",
+    "latitude_sample": 41.8265,
+    "longitude_sample": -83.1948,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.21",
+      "value": 0.21,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.08",
+      "value": 1.08,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.86",
+      "value": 5.86,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L220",
+    "date_iso": "2014-08-18",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 220,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:17",
+    "latitude_sample": 41.7108,
+    "longitude_sample": -83.3804,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.14",
+      "value": 4.14,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "25.56",
+      "value": 25.56,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "50.7",
+      "value": 50.7,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L221",
+    "date_iso": "2014-08-18",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 221,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:18",
+    "latitude_sample": 41.8341,
+    "longitude_sample": -83.3636,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "2.54",
+      "value": 2.54,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "11.37",
+      "value": 11.37,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "36.01",
+      "value": 36.01,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L222",
+    "date_iso": "2014-08-18",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 222,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:02",
+    "latitude_sample": 41.7041,
+    "longitude_sample": -83.2598,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.39",
+      "value": 3.39,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "15.78",
+      "value": 15.78,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "33.35",
+      "value": 33.35,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L223",
+    "date_iso": "2014-08-18",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 223,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:51",
+    "latitude_sample": 41.7428,
+    "longitude_sample": -83.1393,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.21",
+      "value": 0.21,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.68",
+      "value": 0.68,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.95",
+      "value": 5.95,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L224",
+    "date_iso": "2014-08-25",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 224,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "9:50",
+    "latitude_sample": 41.7667,
+    "longitude_sample": -83.3341,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "2.7",
+      "value": 2.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "18.81",
+      "value": 18.81,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "27.1",
+      "value": 27.1,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L225",
+    "date_iso": "2014-08-25",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 225,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:19",
+    "latitude_sample": 41.8275,
+    "longitude_sample": -83.194,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.37",
+      "value": 1.37,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.56",
+      "value": 3.56,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L226",
+    "date_iso": "2014-08-25",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 226,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:23",
+    "latitude_sample": 41.7143,
+    "longitude_sample": -83.3806,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.6",
+      "value": 3.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "15.24",
+      "value": 15.24,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "32.5",
+      "value": 32.5,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L227",
+    "date_iso": "2014-08-25",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 227,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:02",
+    "latitude_sample": 41.8326,
+    "longitude_sample": -83.3586,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.4",
+      "value": 1.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "22.12",
+      "value": 22.12,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "22.85",
+      "value": 22.85,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L228",
+    "date_iso": "2014-08-25",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 228,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:05",
+    "latitude_sample": 41.705,
+    "longitude_sample": -83.2563,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.1",
+      "value": 3.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "45.72",
+      "value": 45.72,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "38.28",
+      "value": 38.28,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L229",
+    "date_iso": "2014-08-25",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 229,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:45",
+    "latitude_sample": 41.7428,
+    "longitude_sample": -83.1409,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.8",
+      "value": 1.8,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "",
+      "value": null,
+      "qualifier": "missing",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "16.76",
+      "value": 16.76,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "11.01",
+      "value": 11.01,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L230",
+    "date_iso": "2014-09-02",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 230,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:16",
+    "latitude_sample": 41.7642,
+    "longitude_sample": -83.3281,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "7.11",
+      "value": 7.11,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "36.74",
+      "value": 36.74,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L231",
+    "date_iso": "2014-09-02",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 231,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:31",
+    "latitude_sample": 41.8278,
+    "longitude_sample": -83.2045,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "7.53",
+      "value": 7.53,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "28.42",
+      "value": 28.42,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L232",
+    "date_iso": "2014-09-02",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 232,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:49",
+    "latitude_sample": 41.7068,
+    "longitude_sample": -83.3846,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "6.6",
+      "value": 6.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.17",
+      "value": 0.17,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "84.32",
+      "value": 84.32,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "101.44",
+      "value": 101.44,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L233",
+    "date_iso": "2014-09-02",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 233,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:19",
+    "latitude_sample": 41.8341,
+    "longitude_sample": -83.3613,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.5",
+      "value": 3.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "57.82",
+      "value": 57.82,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "66.88",
+      "value": 66.88,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L234",
+    "date_iso": "2014-09-02",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 234,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:22",
+    "latitude_sample": 41.7026,
+    "longitude_sample": -83.257,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.3",
+      "value": 0.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "6.25",
+      "value": 6.25,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "23.62",
+      "value": 23.62,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L235",
+    "date_iso": "2014-09-02",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 235,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:54",
+    "latitude_sample": 41.7403,
+    "longitude_sample": -83.1413,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "23.76",
+      "value": 23.76,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "18.69",
+      "value": 18.69,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L236",
+    "date_iso": "2014-09-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 236,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "9:51",
+    "latitude_sample": 41.7652,
+    "longitude_sample": -83.3326,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.48",
+      "value": 0.48,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "3.24",
+      "value": 3.24,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "20.77",
+      "value": 20.77,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L237",
+    "date_iso": "2014-09-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 237,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:29",
+    "latitude_sample": 41.8264,
+    "longitude_sample": -83.1938,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.8",
+      "value": 0.8,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.25",
+      "value": 0.25,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "15.81",
+      "value": 15.81,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "26.24",
+      "value": 26.24,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L238",
+    "date_iso": "2014-09-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 238,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:28",
+    "latitude_sample": 41.7108,
+    "longitude_sample": -83.3813,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "2.1",
+      "value": 2.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1.94",
+      "value": 1.94,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "15.32",
+      "value": 15.32,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "53.38",
+      "value": 53.38,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L239",
+    "date_iso": "2014-09-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 239,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:13",
+    "latitude_sample": 41.8334,
+    "longitude_sample": -83.3636,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.5",
+      "value": 3.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.91",
+      "value": 0.91,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "31.94",
+      "value": 31.94,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "41.82",
+      "value": 41.82,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L240",
+    "date_iso": "2014-09-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 240,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:08",
+    "latitude_sample": 41.7044,
+    "longitude_sample": -83.2554,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.4",
+      "value": 0.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.31",
+      "value": 0.31,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "4.44",
+      "value": 4.44,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "23.2",
+      "value": 23.2,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L241",
+    "date_iso": "2014-09-08",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 241,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:49",
+    "latitude_sample": 41.7418,
+    "longitude_sample": -83.1365,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.4",
+      "value": 1.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.09",
+      "value": 0.09,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "9.21",
+      "value": 9.21,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "13.09",
+      "value": 13.09,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L242",
+    "date_iso": "2014-09-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 242,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "9:51",
+    "latitude_sample": 41.7636,
+    "longitude_sample": -83.331,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.7",
+      "value": 0.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.87",
+      "value": 0.87,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "9.1",
+      "value": 9.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "13.72",
+      "value": 13.72,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L243",
+    "date_iso": "2014-09-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 243,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:14",
+    "latitude_sample": 41.8266,
+    "longitude_sample": -83.1939,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.91",
+      "value": 0.91,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.94",
+      "value": 3.94,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L244",
+    "date_iso": "2014-09-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 244,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:17",
+    "latitude_sample": 41.711,
+    "longitude_sample": -83.3813,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.4",
+      "value": 0.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.42",
+      "value": 0.42,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.38",
+      "value": 1.38,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "12.06",
+      "value": 12.06,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L245",
+    "date_iso": "2014-09-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 245,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:00",
+    "latitude_sample": 41.8342,
+    "longitude_sample": -83.3627,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.4",
+      "value": 1.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1.23",
+      "value": 1.23,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "13.5",
+      "value": 13.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "19.37",
+      "value": 19.37,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L246",
+    "date_iso": "2014-09-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 246,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:16",
+    "latitude_sample": 41.7038,
+    "longitude_sample": -83.2608,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.3",
+      "value": 1.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1.04",
+      "value": 1.04,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "4.78",
+      "value": 4.78,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "18.49",
+      "value": 18.49,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L247",
+    "date_iso": "2014-09-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 247,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:49",
+    "latitude_sample": 41.7406,
+    "longitude_sample": -83.1408,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "8.92",
+      "value": 8.92,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "11.96",
+      "value": 11.96,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L248",
+    "date_iso": "2014-09-23",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 248,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:03",
+    "latitude_sample": 41.7638,
+    "longitude_sample": -83.3321,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.35",
+      "value": 1.35,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1.4",
+      "value": 1.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "30.84",
+      "value": 30.84,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "12.64",
+      "value": 12.64,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L249",
+    "date_iso": "2014-09-23",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 249,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:58",
+    "latitude_sample": 41.8269,
+    "longitude_sample": -83.1948,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.3",
+      "value": 0.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.49",
+      "value": 0.49,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "2.62",
+      "value": 2.62,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L250",
+    "date_iso": "2014-09-23",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 250,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:55",
+    "latitude_sample": 41.7105,
+    "longitude_sample": -83.3819,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "3.7",
+      "value": 3.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1.3",
+      "value": 1.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "17.46",
+      "value": 17.46,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "12.88",
+      "value": 12.88,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L251",
+    "date_iso": "2014-09-23",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 251,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:48",
+    "latitude_sample": 41.8349,
+    "longitude_sample": -83.3627,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "6",
+      "value": 6.0,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1.9",
+      "value": 1.9,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "112.53",
+      "value": 112.53,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "52.59",
+      "value": 52.59,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L252",
+    "date_iso": "2014-09-23",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 252,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:34",
+    "latitude_sample": 41.7033,
+    "longitude_sample": -83.2583,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.9",
+      "value": 0.9,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.9",
+      "value": 0.9,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "17.55",
+      "value": 17.55,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "16.97",
+      "value": 16.97,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L253",
+    "date_iso": "2014-09-23",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 253,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:18",
+    "latitude_sample": 41.7397,
+    "longitude_sample": -83.1444,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.97",
+      "value": 0.97,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5.07",
+      "value": 5.07,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L254",
+    "date_iso": "2014-09-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 254,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:05",
+    "latitude_sample": 41.7647,
+    "longitude_sample": -83.3351,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.2",
+      "value": 4.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "205.5",
+      "value": 205.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "66.63",
+      "value": 66.63,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L255",
+    "date_iso": "2014-09-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 255,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:17",
+    "latitude_sample": 41.8268,
+    "longitude_sample": -83.1947,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "3.65",
+      "value": 3.65,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "9.21",
+      "value": 9.21,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L256",
+    "date_iso": "2014-09-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 256,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:30",
+    "latitude_sample": 41.7098,
+    "longitude_sample": -83.3827,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "1.7",
+      "value": 1.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "1",
+      "value": 1.0,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "22.51",
+      "value": 22.51,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "45.89",
+      "value": 45.89,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L257",
+    "date_iso": "2014-09-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 257,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:53",
+    "latitude_sample": 41.8363,
+    "longitude_sample": -83.3605,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "7",
+      "value": 7.0,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.7",
+      "value": 0.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "86.38",
+      "value": 86.38,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "109.66",
+      "value": 109.66,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L258",
+    "date_iso": "2014-09-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 258,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:10",
+    "latitude_sample": 41.7031,
+    "longitude_sample": -83.2591,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.5",
+      "value": 0.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "21.87",
+      "value": 21.87,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "22.25",
+      "value": 22.25,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L259",
+    "date_iso": "2014-09-29",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 259,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:48",
+    "latitude_sample": 41.7376,
+    "longitude_sample": -83.1418,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "110.03",
+      "value": 110.03,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "94.45",
+      "value": 94.45,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L260",
+    "date_iso": "2014-10-06",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 260,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:21",
+    "latitude_sample": 41.7633,
+    "longitude_sample": -83.3324,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.3",
+      "value": 0.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "6.24",
+      "value": 6.24,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "8.06",
+      "value": 8.06,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L261",
+    "date_iso": "2014-10-06",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 261,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:37",
+    "latitude_sample": 41.8261,
+    "longitude_sample": -83.1954,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.36",
+      "value": 0.36,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "1.18",
+      "value": 1.18,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L262",
+    "date_iso": "2014-10-06",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 262,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:53",
+    "latitude_sample": 41.7108,
+    "longitude_sample": -83.3806,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "2.5",
+      "value": 2.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.5",
+      "value": 0.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "30.92",
+      "value": 30.92,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "91.22",
+      "value": 91.22,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L263",
+    "date_iso": "2014-10-06",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 263,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:17",
+    "latitude_sample": 41.8341,
+    "longitude_sample": -83.3611,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.6",
+      "value": 0.6,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "9.54",
+      "value": 9.54,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "18.5",
+      "value": 18.5,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L264",
+    "date_iso": "2014-10-06",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 264,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:22",
+    "latitude_sample": 41.704,
+    "longitude_sample": -83.2574,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.5",
+      "value": 0.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.97",
+      "value": 3.97,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L265",
+    "date_iso": "2014-10-06",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 265,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:04",
+    "latitude_sample": 41.7429,
+    "longitude_sample": -83.1443,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.5",
+      "value": 0.5,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "6.75",
+      "value": 6.75,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "4.94",
+      "value": 4.94,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L266",
+    "date_iso": "2014-10-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 266,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:09",
+    "latitude_sample": 41.7625,
+    "longitude_sample": -83.3325,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.45",
+      "value": 0.45,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.3",
+      "value": 0.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.94",
+      "value": 0.94,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "6.85",
+      "value": 6.85,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L267",
+    "date_iso": "2014-10-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 267,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:13",
+    "latitude_sample": 41.8268,
+    "longitude_sample": -83.194,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.54",
+      "value": 0.54,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.2",
+      "value": 0.2,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "2.71",
+      "value": 2.71,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "4.15",
+      "value": 4.15,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L268",
+    "date_iso": "2014-10-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 268,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:40",
+    "latitude_sample": 41.7117,
+    "longitude_sample": -83.3809,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.62",
+      "value": 0.62,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.3",
+      "value": 0.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "15.11",
+      "value": 15.11,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "26.3",
+      "value": 26.3,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L269",
+    "date_iso": "2014-10-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 269,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:48",
+    "latitude_sample": 41.8339,
+    "longitude_sample": -83.3527,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "4.89",
+      "value": 4.89,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.4",
+      "value": 0.4,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "673.18",
+      "value": 673.18,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "466.5",
+      "value": 466.5,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L270",
+    "date_iso": "2014-10-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 270,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:11",
+    "latitude_sample": 41.704,
+    "longitude_sample": -83.2616,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.3",
+      "value": 0.3,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.39",
+      "value": 0.39,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "4.11",
+      "value": 4.11,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L271",
+    "date_iso": "2014-10-15",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 271,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:43",
+    "latitude_sample": 41.741,
+    "longitude_sample": -83.1441,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.24",
+      "value": 0.24,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.47",
+      "value": 1.47,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "1.64",
+      "value": 1.64,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L272",
+    "date_iso": "2014-10-20",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 272,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:11",
+    "latitude_sample": 41.7638,
+    "longitude_sample": -83.3309,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.46",
+      "value": 0.46,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "2.12",
+      "value": 2.12,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "7.23",
+      "value": 7.23,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L273",
+    "date_iso": "2014-10-20",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 273,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:11",
+    "latitude_sample": 41.8263,
+    "longitude_sample": -83.1959,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.15",
+      "value": 0.15,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.23",
+      "value": 0.23,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "1.39",
+      "value": 1.39,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L274",
+    "date_iso": "2014-10-20",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 274,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:45",
+    "latitude_sample": 41.7114,
+    "longitude_sample": -83.3788,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.7",
+      "value": 0.7,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "9.45",
+      "value": 9.45,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "19.37",
+      "value": 19.37,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L275",
+    "date_iso": "2014-10-20",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 275,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:49",
+    "latitude_sample": 41.8337,
+    "longitude_sample": -83.3603,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "0.12",
+      "value": 0.12,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.8",
+      "value": 0.8,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.04",
+      "value": 1.04,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "2.07",
+      "value": 2.07,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L276",
+    "date_iso": "2014-10-20",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 276,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:14",
+    "latitude_sample": 41.7045,
+    "longitude_sample": -83.2611,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.38",
+      "value": 0.38,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.54",
+      "value": 0.54,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "5",
+      "value": 5.0,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L277",
+    "date_iso": "2014-10-20",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 277,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:43",
+    "latitude_sample": 41.7422,
+    "longitude_sample": -83.1373,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.26",
+      "value": 0.26,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "1.01",
+      "value": 1.01,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "2.14",
+      "value": 2.14,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L278",
+    "date_iso": "2014-10-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 278,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:15",
+    "latitude_sample": 41.7628,
+    "longitude_sample": -83.3301,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.28",
+      "value": 0.28,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.12",
+      "value": 0.12,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.26",
+      "value": 3.26,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L279",
+    "date_iso": "2014-10-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 279,
+    "qa_flags": "",
+    "site": "WE4",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:43",
+    "latitude_sample": 41.8259,
+    "longitude_sample": -83.1946,
+    "nominal_station": {
+      "site": "WE4",
+      "latitude": 41.827,
+      "longitude": -83.193,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "<0.036",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.036
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "1.14",
+      "value": 1.14,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L280",
+    "date_iso": "2014-10-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 280,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:55",
+    "latitude_sample": 41.71,
+    "longitude_sample": -83.3784,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.35",
+      "value": 0.35,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.78",
+      "value": 0.78,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "10.35",
+      "value": 10.35,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L281",
+    "date_iso": "2014-10-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 281,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:21",
+    "latitude_sample": 41.8363,
+    "longitude_sample": -83.3556,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.38",
+      "value": 0.38,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.1",
+      "value": 0.1,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "2.16",
+      "value": 2.16,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L282",
+    "date_iso": "2014-10-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 282,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:30",
+    "latitude_sample": 41.7038,
+    "longitude_sample": -83.2607,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.19",
+      "value": 0.19,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.17",
+      "value": 0.17,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "4.91",
+      "value": 4.91,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L283",
+    "date_iso": "2014-10-27",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 283,
+    "qa_flags": "",
+    "site": "WE13",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:00",
+    "latitude_sample": 41.7411,
+    "longitude_sample": -83.1346,
+    "nominal_station": {
+      "site": "WE13",
+      "latitude": 41.741,
+      "longitude": -83.136,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "<0.036",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.036
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "2.68",
+      "value": 2.68,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L284",
+    "date_iso": "2014-11-03",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 284,
+    "qa_flags": "",
+    "site": "WE2",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "10:56",
+    "latitude_sample": 41.7627,
+    "longitude_sample": -83.3308,
+    "nominal_station": {
+      "site": "WE2",
+      "latitude": 41.762,
+      "longitude": -83.33,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.14",
+      "value": 0.14,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.06",
+      "value": 0.06,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "2.97",
+      "value": 2.97,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L285",
+    "date_iso": "2014-11-03",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 285,
+    "qa_flags": "",
+    "site": "WE6",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "11:38",
+    "latitude_sample": 41.7142,
+    "longitude_sample": -83.3748,
+    "nominal_station": {
+      "site": "WE6",
+      "latitude": 41.705,
+      "longitude": -83.385,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.23",
+      "value": 0.23,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.04",
+      "value": 0.04,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "7.6",
+      "value": 7.6,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L286",
+    "date_iso": "2014-11-03",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 286,
+    "qa_flags": "",
+    "site": "WE8",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "13:12",
+    "latitude_sample": 41.8356,
+    "longitude_sample": -83.3592,
+    "nominal_station": {
+      "site": "WE8",
+      "latitude": 41.834,
+      "longitude": -83.364,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.18",
+      "value": 0.18,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.06",
+      "value": 0.06,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "3.65",
+      "value": 3.65,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  },
+  {
+    "record_id": "glerl-2014-L287",
+    "date_iso": "2014-11-03",
+    "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_results_2012_2018_v2.csv",
+    "source_csv_line": 287,
+    "qa_flags": "",
+    "site": "WE12",
+    "sample_depth_category": "Surface",
+    "sample_depth_m": 0.75,
+    "local_time_eastern_raw": "12:15",
+    "latitude_sample": 41.7032,
+    "longitude_sample": -83.2593,
+    "nominal_station": {
+      "site": "WE12",
+      "latitude": 41.703,
+      "longitude": -83.254,
+      "source_file": "Originals\\GLERL\\lake_erie_habs_field_sampling_master_coordinates_2019.csv"
+    },
+    "particulate_microcystin_ug_L": {
+      "raw": "<0.1",
+      "value": null,
+      "qualifier": "<",
+      "limit": 0.1
+    },
+    "dissolved_microcystin_ug_L": {
+      "raw": "0.16",
+      "value": 0.16,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_phycocyanin_ug_L": {
+      "raw": "0.19",
+      "value": 0.19,
+      "qualifier": "numeric",
+      "limit": null
+    },
+    "extracted_chlorophyll_a_ug_L": {
+      "raw": "7.35",
+      "value": 7.35,
+      "qualifier": "numeric",
+      "limit": null
+    }
+  }
+]

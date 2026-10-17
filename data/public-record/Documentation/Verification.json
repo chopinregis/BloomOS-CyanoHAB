@@ -1,0 +1,13 @@
+{
+  "downloaded_files": 303,
+  "sha256_checks_passed": 303,
+  "satellite_files_expected": 262,
+  "satellite_files_present": 262,
+  "geotiffs_decoded": 193,
+  "png_previews_pixel_matched": 193,
+  "pdf_signature_checks": 67,
+  "row_count_checks": {
+    "2014": 126,
+    "2019": 219
+  }
+}
