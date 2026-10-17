@@ -6,6 +6,7 @@ then read **[Integration Notes.md](Integration%20Notes.md)** before using any of
 
 | Folder / file | Contents |
 | --- | --- |
+| `Originals/` | Downloaded source bytes, unmodified and checksum-verified: GLERL sample and station CSVs, compressed NDBC 45005 annual files, USGS daily-discharge responses |
 | `Prepared Data/` | Year-specific GLERL/CIGLR sample tables (CSV and structured JSON), station registry, quality flags, NDBC buoy 45005 records, USGS Maumee River daily discharge, satellite catalog, coverage summary |
 | `Satellite Previews/` | PNG previews of 193 archived NOAA Cyanobacteria Index GeoTIFFs (display only; no georeferencing, colours are not toxin values) |
 | `Documentation/` | Archive metadata, directory snapshots, the GLERL sampling-location map, the open-access methods paper, and `Verification.json` |
@@ -13,10 +14,9 @@ then read **[Integration Notes.md](Integration%20Notes.md)** before using any of
 | `Source Manifest.csv`, `acquisition.jsonl` | Source URL, retrieval time, byte count and SHA-256 for every downloaded file |
 | `Data Overview.html` | Readable inventory with a date slider through the satellite previews (open locally in a browser) |
 
-**Not included yet:** the `Originals/` folder (source GeoTIFFs, bulletin PDFs, raw GLERL CSVs,
-compressed NDBC files and USGS responses). Links in the manifest and the overview that point into
-`Originals/` will not resolve until it is added. The prepared CSVs (including USGS river discharge)
-are complete and usable without it.
+**Not included yet:** `Originals/Satellite/` (193 source GeoTIFFs, 66 bulletin PDFs and 3 product
+notes, about 107 MB). The satellite links in the manifest and the overview's "Original GeoTIFF"
+links will not resolve until it is added. Everything else, including the previews, is complete.
 
 ## Sources and terms
 
