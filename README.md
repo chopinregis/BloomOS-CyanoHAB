@@ -6,7 +6,7 @@ A complete architectural specification encoding established NOAA/NCCOS cyanobact
 
 ![BloomOS Basin Console: 3D replay of a bloom season in western Lake Erie, with the governance state of every claim](docs/screenshots/console-hero.jpg)
 
-*BloomOS Basin Console, an interface demonstrator for this specification. Every value shown is synthetic; it is not observed data and is not affiliated with or endorsed by NOAA. [More screenshots](docs/screenshots/README.md) · [Public-record data for 2014 and 2019](data/public-record/README.md)*
+*BloomOS Basin Console, an interface demonstrator for this specification, on the real western Lake Erie coastline. Shown: scenario A, where every value is synthetic. Scenario B replays archived 2014 public records (NOAA satellite products, GLERL lake samples, NDBC buoy, USGS river flow) with its gate outcomes labelled as a simulation. Not affiliated with or endorsed by NOAA. [More screenshots](docs/screenshots/README.md) · [Public-record data for 2014 and 2019](data/public-record/README.md)*
 
 ---
 
