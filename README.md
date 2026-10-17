@@ -6,7 +6,15 @@ A complete architectural specification encoding established NOAA/NCCOS cyanobact
 
 ![BloomOS Basin Console: 3D replay of a bloom season in western Lake Erie, with the governance state of every claim](docs/screenshots/console-hero.jpg)
 
-*BloomOS Basin Console, an interface demonstrator for this specification, on the real western Lake Erie coastline. Shown: scenario A, where every value is synthetic. Scenario B replays archived 2014 public records (NOAA satellite products, GLERL lake samples, NDBC buoy, USGS river flow) with its gate outcomes labelled as a simulation. Not affiliated with or endorsed by NOAA. [More screenshots](docs/screenshots/README.md) · [Public-record data for 2014 and 2019](data/public-record/README.md)*
+*BloomOS Basin Console, an interface demonstrator for this specification, on the real western Lake Erie coastline. Shown: scenario A, where every value is synthetic. Not affiliated with or endorsed by NOAA.*
+
+### BloomOS in two minutes
+
+| [![A low result is not clearance](docs/video/BloomOS_1_low_result_is_not_clearance.jpg)](docs/video/BloomOS_1_low_result_is_not_clearance.mp4) | [![Lake Erie, summer 2014. From the archive.](docs/video/BloomOS_2_lake_erie_2014_public_record.jpg)](docs/video/BloomOS_2_lake_erie_2014_public_record.mp4) | [![What should a bloom system do when the satellite goes blind?](docs/video/BloomOS_3_stress_test_blind_satellite.jpg)](docs/video/BloomOS_3_stress_test_blind_satellite.mp4) |
+| - | - | - |
+| **A low result is not clearance** · 0:43 · synthetic | **Lake Erie 2014, from the archive** · 0:39 · public record | **When the satellite goes blind** · 0:48 · synthetic |
+
+Every number in the synthetic scenarios is simulated. The 2014 replay uses archived public records (NOAA satellite products, GLERL/CIGLR lake samples, NDBC buoy 45005, USGS Maumee River flow) and labels its gate outcomes as a simulation. More: [videos](docs/video/README.md) · [screenshots](docs/screenshots/README.md) · [2014 and 2019 public-record data](data/public-record/README.md) · [Section 12, tested against the 2014 record](#section-12-counterfactual-pre-mortem--toledo-2014)
 
 ---
 
@@ -39,7 +47,7 @@ Inquiries: regisndetene@gmail.com  ·  [SPA Inc. profile](https://github.com/cho
 
 Master Architectural Specification — NOAA/NCCOS Methodology Lineage
 
-**v1.0 REV3**
+**v1.0 REV3.1**
 
 
 **Author: Regis Benoit Brice Nde Tene**
@@ -65,7 +73,8 @@ Date: March 2026  •  Document Class: Scientific Operating System Architecture
 | v0.9 | 2026-01-29 | RBBNT | Draft for Internal Technical Review; five-module mapping. | Superseded |
 | v1.0 REV1 | 2026-02-12 | RBBNT | **Initial Master Specification**; baseline logic and gates. | Superseded |
 | v1.0 REV2 | 2026-02-24 | RBBNT | Integration of Halifax protocols and CyanNet fallback logic. | Superseded |
-| v1.0 REV3 | 2026-03-06 | RBBNT | **Current Master Specification**: Final peer-review refinements; Appendix E/F added. | **Current** |
+| v1.0 REV3 | 2026-03-06 | RBBNT | Final peer-review refinements; Appendix E/F added. | Superseded |
+| v1.0 REV3.1 | 2026-10-17 | RBBNT | **Current Master Specification**: Section 12 rebuilt from the archived 2014 public record with source labels; unsupported historical statements in the Executive Summary, Section 1.1 and Section 5.3 corrected; interface figures added. | **Current** |
 
 
 
@@ -144,7 +153,7 @@ References
 
 # Executive Summary
 
-The Lake Erie harmful algal bloom detection system currently operates with a 3–7 day latency between sample collection and actionable toxin results. During that window, a cyanobacteria bloom can double in biomass, shift five kilometres due to wind, or completely dissipate. Public health decisions—beach closures, drinking water advisories, shellfish bed restrictions—are made based on data describing where the bloom was, not where it is. The 2014 Toledo water crisis, which left 500,000 people without drinking water for three days, was a direct consequence of this governance latency: the bloom trajectory was visible from satellite days before the toxin results arrived, but the system had no mechanism to act on that trajectory.
+The Lake Erie harmful algal bloom detection system currently operates with a 3–7 day latency between sample collection and actionable toxin results. During that window, a cyanobacteria bloom can double in biomass, shift five kilometres due to wind, or completely dissipate. Public health decisions—beach closures, drinking water advisories, shellfish bed restrictions—are made based on data describing where the bloom was, not where it is. The 2014 Toledo water crisis left roughly half a million people without drinking water for three days. The archived public record shows that elevated microcystin was present in lake samples at every GLERL monitoring station on July 21 and again on July 29, and that NOAA satellite products showed the bloom concentrated in Maumee Bay, before the do-not-drink advisory of August 2 (Section 12). What the record cannot show is when those results reached decision-makers or what governed the response; BloomOS exists to make that chain explicit and auditable.
 
 BloomOS treats the Cyanobacteria Index (CI) not as a visualization product but as a process control signal. The architecture enforces four invariants—Provenance-First Verification, Gate-Ordered Reasoning Hierarchy, Longitudinal Window-Based Truth, and Deterministic Validator with Prohibited Content—and encodes the NOAA Technical Memorandum NOS NCCOS 252 processing guidelines as executable validator gates rather than reference text. The canonical unit of truth is the 10-day maximum-value composite, consistent with 15 years of Lake Erie operational practice established by Wynne and Stumpf.
 
@@ -161,7 +170,7 @@ Key outcomes delivered by this deployment are listed below.
 | Prohibited content enforcement | Architecture blocks toxin quantification from satellite alone, species ID without qPCR, and ‘safe’ declarations from single grab samples. | Reynolds et al. 2023 |
 | Epistemic boundary clarity | Section 11 explicitly lists which parameters require joint calibration with NOAA; the architecture makes no claims beyond its engineering guarantees. | SPA Section 11 mandate |
 | Calibration dataset specification | Appendix E names every uncalibrated coefficient, the responsible domain authority, sample size requirements, and statistical method. | New — REV2 Gap resolution |
-| Toledo 2014 counterfactual | Section 12 walks through the 2014 Toledo water crisis step-by-step showing how BloomOS architecture would have changed the timeline. | REV3 addition |
+| Toledo 2014 counterfactual | Section 12 tests BloomOS against the archived 2014 public record, labelling every statement by source and stating what the record cannot show. | REV3 addition; rebuilt in REV3.1 |
 
 *All thresholds and weights labeled \[engineering\] or \[pending calibration\] require joint validation with NOAA/NCCOS before Tier 1 operational use. Parameters marked \[validated\] are grounded in peer-reviewed sources but may require lake-specific recalibration for deployment outside Western Lake Erie. Planned calibration sprint: Q2 2026.*
 
@@ -183,7 +192,7 @@ Current detection pathway: Satellite observes cyanobacteria biomass (CI) within 
 | Bloom doubling time (Microcystis) | ~10 days | Fahnenstiel et al. 2008 |
 
 
-The economic consequences of one missed detection establish the financial case for this architecture. The 2014 Toledo water crisis left 500,000 people without drinking water for three days; the bloom trajectory was visible from satellite days before the toxin results arrived. An estimated $40M tourism loss from the 2015 Washington razor clam closure due to HABs (NOAA Fisheries story map 2021; citing D. Ayres, WDFW personal communication 2016), a $10.3M decrease in Texas oyster landings in 2011 (NOAA Fisheries 2016), and $2.4M in lost income for tribal commercial harvesters in the 2015 Pacific Northwest event (Stroming et al. 2020) collectively demonstrate that the failure is not missing the bloom. The satellites see it. The failure is governance latency: the system waits for a lab result that arrives after the bloom has already moved, intensified, or toxified.
+The economic consequences of one missed detection establish the financial case for this architecture. The 2014 Toledo water crisis left roughly half a million people without drinking water for three days; archived lake samples and satellite products documented a basin-wide toxic bloom in the weeks before the advisory (Section 12). An estimated $40M tourism loss from the 2015 Washington razor clam closure due to HABs (NOAA Fisheries story map 2021; citing D. Ayres, WDFW personal communication 2016), a $10.3M decrease in Texas oyster landings in 2011 (NOAA Fisheries 2016), and $2.4M in lost income for tribal commercial harvesters in the 2015 Pacific Northwest event (Stroming et al. 2020) collectively demonstrate that the failure is not missing the bloom. The satellites see it. The failure is governance latency: the system waits for a lab result that arrives after the bloom has already moved, intensified, or toxified.
 
 ## **1.2 Redefining the Product**
 
@@ -388,7 +397,11 @@ Decoherence Index (DI) = |CI\_satellite − CI\_lab\_derived| / MAE\_reference
 | Suspect | 1.0 \< DI ≤ 2.0 | Flag all outputs. Publish with explicit decoherence warning. Mandatory additional sampling. |
 | Orphaned | DI \> 2.0 OR spatial pattern contradicts all point samples | Block publication of any ‘safe’ or ‘clear’ signals. Trigger DivergenceEventCaptured. H3 handshake automatically fails (score = 0) regardless of other factors—see Section 7.3. Mandatory resampling within 48h. |
 
-*The Orphaned state is the most critical detection in BloomOS. It captures the scenario in which a grab sample returns a sub-threshold toxin result while the satellite simultaneously detects a large, accelerating bloom in the same area. This exact scenario preceded the Toledo 2014 crisis. An Orphaned state cannot be resolved by additional computation; it requires physical resampling.*
+*The Orphaned state is the most critical detection in BloomOS. It captures the scenario in which a grab sample returns a sub-threshold toxin result while the satellite simultaneously detects a large, accelerating bloom in the same area. It is the failure mode a single low result invites: a reassuring number that the spatial evidence contradicts. (The archived 2014 record does not itself contain such a sample before the Toledo advisory; see Section 12.) An Orphaned state cannot be resolved by additional computation; it requires physical resampling.*
+
+![Advisories view: a 0.8 µg/L sample below threshold, H3 auto-fail and PCR-3 blocking a "safe" call](docs/screenshots/a-advisories-clearance-blocked.jpg)
+
+*Figure 5.1 · The Orphaned state in the interface (synthetic scenario A). The lab reports 0.8 µg/L while the satellite shows high biomass: H3 fails automatically, PCR-3 blocks a "safe" call, and resampling is required.*
 
 ## **5.4 Foundation Module — Historical Frequency Context**
 
@@ -417,6 +430,10 @@ The Entropy Module quantifies what cannot be seen and makes that quantification 
 | Transparent | valid\_pixel\_fraction \> 80% AND no\_saturation AND wind \< 7.7 m/s | Full confidence composite | None |
 | Interpolated | valid\_pixel\_fraction 40–80% OR minor glint | Reduced confidence; compositing applied | Advisory requires in situ corroboration |
 | Blind | valid\_pixel\_fraction \< 40% OR sustained wind \> 7.7 m/s for 48h | Observability degraded; lake-wide estimate invalid | No lake-wide CI estimate. Pixel-level output only with uncertainty label. Mandatory field sampling at registered intake locations within 48h (cross-ref: Section 8.1, Gap Type: Extended cloud cover / wind). |
+
+![Sensing view during a cloud gap: unobserved water hatched, a stippled CyanNet fallback, lake-wide estimates withheld](docs/screenshots/c-sensing-cloud-gap-cyannet.jpg)
+
+*Figure 5.2 · Entropy state Blind (synthetic scenario C). Unobserved water is hatched rather than drawn as low; the CyanNet fallback is stippled and labelled ±36%; the lake-wide area estimate is withheld (PCR-7).*
 
 
 # Section 6: Process Physics
@@ -458,6 +475,10 @@ EWS = α×(CI\_velocity/CI\_velocity\_max) + β×(temp\_june/20) + γ×(TBP/TBP\
 # Section 7: Sovereign Governance Layer
 
 The Sovereign Governance Layer (SGL) wraps the entire processing stack. It enforces the four architectural invariants, operates the Flight Recorder, manages the defense-in-depth validator pipeline, administers the Socratic Handshake for contested or high-stakes decisions, and issues the Agency Score that quantifies process trustworthiness. The SGL does not intervene in scientific computation; it governs the conditions under which computational results may become public claims.
+
+![Governance view: certification tier, Agency Score, runbook phase, handshakes with answers and signatories, validators and prohibited content rules](docs/screenshots/c-governance.jpg)
+
+*Figure 7.1 · The Sovereign Governance Layer in the interface (synthetic scenario C): certification tier, Agency Score composition, runbook phase P0–P7, Socratic handshakes with their answers and who signed them, validators V0–V7 and the eight Prohibited Content Rules.*
 
 ## **7.1 Flight Recorder**
 
@@ -558,6 +579,10 @@ The following eight rules are hard-coded architectural constraints. They cannot 
 | Tier 1 | Full Sovereignty | AS\_weighted ≥ 0.80 AND all H1–H4 handshakes passed for applicable triggers AND V0–V7 all pass AND calibration status = ‘active’ for all Section 11 parameters. | All 7 products. Advisory issuance. Beach closure/opening decisions. |
 | Tier 2 | Partial Assurance | AS\_weighted 0.60–0.79 OR ≥1 H handshake partial pass OR valid\_pixel\_fraction 40–80% OR CyanNet fallback active. | Momentum, Coherence, Entropy, Latency Log, Intake Risk Score with uncertainty label. No advisory without in situ corroboration. |
 | Tier 3 | Output-Only | AS\_weighted \< 0.60 OR valid\_pixel\_fraction \< 40% OR extended sensor gap without CyanNet coverage. | Entropy Report and pixel-level CI only. No governance products. Mandatory field sampling posture activated. |
+
+![Advisories view: a 14.2 µg/L beach sample triggers G8; the closure is authorized at Tier 1](docs/screenshots/c-advisories-beach-closure.jpg)
+
+*Figure 7.2 · Certification in use (synthetic scenario C). A 14.2 µg/L beach sample triggers G8; because beach closures require Tier 1, the gate evaluation shows the Agency Score and handshakes that make the closure permissible.*
 
 
 # Section 8: Operating Protocol / Runbook
@@ -721,43 +746,79 @@ The calibration sprint aligns all ten parameters to a structured eight-week cali
 
 # Section 12: Counterfactual Pre-Mortem — Toledo 2014
 
-This section reconstructs the August 2014 Toledo water crisis and demonstrates, step by step, how BloomOS would have handled the event differently. This is not a criticism of historical operations—the scientists and authorities involved operated within the tools and governance structures available at the time. It is a validation exercise: the architecture is tested against the very event that justifies its existence. A governance system that cannot explain its value against the event it was designed to prevent is not a governance system.
+This section tests the architecture against the August 2014 Toledo water crisis. It is not a criticism of historical operations: the scientists and authorities involved worked within the tools and governance structures available at the time. It is a validation exercise. A governance system that cannot explain its value against the event it was designed to prevent is not a governance system.
 
-## **12.1 Historical Timeline vs. BloomOS Counterfactual**
+***REV3.1 correction:** REV3 used an illustrative timeline (a 0.8 µg/L laboratory result on August 6 and an emergency advisory on August 7–8) that does not match the public record. This revision rebuilds the timeline from archived public data published with this repository in [`data/public-record`](data/public-record/README.md), and labels every historical statement by its source. The REV3 claim that BloomOS would have issued an advisory "approximately 2 days earlier" is withdrawn; Section 12.2 explains why the public record cannot support a lead-time figure.*
 
-| **Date** | **Historical Event (2014)** | **BloomOS Counterfactual** |
+**Source labels used in this section**
+
+| Label | Meaning |
+| - | - |
+| **[D]** | Data package: archived public records in `data/public-record`, checksum-verified against their sources. GLERL/CIGLR lake samples are cited by CSV line in `lake_erie_habs_field_sampling_results_2012_2018_v2.csv`; satellite products by NCEI accession 0242494; wind by NDBC buoy 45005; river flow by USGS 04193500. |
+| **[P]** | Public reporting: widely reported facts that are **not** in the data package. Verify against City of Toledo and Ohio EPA records before citing. |
+| **[C]** | Counterfactual: what BloomOS gates would evaluate on the [D] evidence. It describes the architecture's logic, not what would have happened. |
+
+**Limits of the evidence.** The GLERL values are particulate microcystin in lake surface samples, not treated drinking water and not total microcystin. The archive records when water was collected, not when a result reached anyone. The satellite products are archived rendered images; their codes are not decoded to CI values in this package, so the Early Warning Score, CI velocity and Decoherence Index cannot be computed for 2014 from these files.
+
+![Scenario B replays the 2014 public record: NOAA's archived satellite product on its native grid, GLERL station samples, buoy wind and Maumee River flow](docs/screenshots/b-basin-public-record-2014.jpg)
+
+*Figure 12.1 · Public record replay (BloomOS console, scenario B), July 29, 2014. The newest archived NOAA product at that time is from July 24 and is shown as 4.9 days old. Pins are GLERL lake surface samples; WE6 recorded 37.06 µg/L. [Watch the 40-second replay](docs/video/README.md).*
+
+## **12.1 Public Record vs. BloomOS Counterfactual**
+
+| **Date (2014)** | **Public record** | **BloomOS counterfactual [C]** |
 | - | - | - |
-| July 29 | Satellite detects elevated CI in Western Lake Erie Basin. No governance action taken; data not integrated into decision chain. | P2 trigger: CI\_max \> 0.0005 in current 10-day composite. Field sampling scheduled within 48h. Latency Log records satellite-to-action gap as 0 days. |
-| July 31 | Bloom visible from satellite; CI velocity accelerating. No advisory mechanism triggered. | Momentum Module: CI\_velocity = +0.00028/day (Accelerating class). EWS = 0.52 (below threshold). Early warning assessment begins. |
-| Aug 1 | Field sample collected at Toledo intake. Shipped to lab under standard 7-day turnaround. | SampleIngested event created. Collection timestamp, location\_id, lab\_batch\_id logged. Latency clock starts. |
-| Aug 2 | Bloom continues accelerating. No advisory issued. | CI\_max \> 0.001 (severe threshold). EWS = 0.68. P3 entered: mandatory H3 evaluation. Gate G9 evaluated; Tier 2 certification confirmed. Advisory Issued: ‘Elevated Risk — Toxin Confirmation Pending.’ |
-| Aug 3 | No advisory. Bloom tracking continues. | Momentum Report published: CI\_velocity = +0.00041/day (Accelerating). Subscribers notified. Latency Log shows 2-day gap since last lab result. |
-| Aug 4 | No advisory. Toledo water utility has no actionable signal. | Coherence Gate evaluated: Satellite = High biomass; Lab = Pending. Coherence class = Orphaned. DivergenceEventCaptured. H3 automatic fail (DI \> 2.0). Advisory remains active at Tier 2. |
-| Aug 5 | Wind event. No governance response. | Wind \> 6.2 m/s. Entropy Module: Interpolated state. Composite flagged ‘reduced confidence.’ Field sampling maintained (advisory active). |
-| Aug 6 | Lab result received: Microcystin = 0.8 μg/L (below WHO 1 μg/L). Advisory system interprets this as ‘safe.’ Advisory not issued or delayed. | Lab result ingested. DI = 2.4 (Satellite high, Lab low). H3 automatic fail (DI \> 2.0). PCR-3 prohibits ‘safe’ declaration from single sample. Flight Recorder: ProhibitedContentRule PCR-3 blocked clearance. Mandatory 48h resampling triggered. |
-| Aug 7–8 | Second sample eventually collected. Microcystin = 2.1 μg/L (above WHO). Emergency advisory issued. 500,000 people without water for 3 days. | Second lab result: Microcystin = 2.1 μg/L. H3 re-evaluated: DI \< 2.0 after second sample. Gate G8 passes (WHO Alert 2). Advisory escalated: ‘Do Not Drink — Confirmed Toxin.’ Certification: Tier 1. This advisory would have been issued approximately 2 days earlier than the historical response. |
+| Jul 8 | **[D]** GLERL visit: particulate microcystin below the 0.1 µg/L reporting limit at five of six stations; WE2 0.29 µg/L (CSV lines 180–185). | Baseline. P1 monitoring only. |
+| Jul 14 | **[D]** WE2 1.02 µg/L, the first sample in the window at or above 1 µg/L (line 186). Other stations below 1 µg/L or below the reporting limit (lines 187–191). | One lake sample meets the WHO Alert 1 level (G7). P2 threshold surveillance: field sampling at registered intakes within 48 h. A single station supports escalated monitoring, not a public advisory. |
+| Jul 15 | **[D]** Buoy 45005: wind above 7.7 m/s for about 25 h, peak 10.5 m/s. | G4 mixing flag. Entropy state Blind for surface CI; a low satellite reading in this window cannot count as clearance. |
+| Jul 21 | **[D]** All six stations at or above 1 µg/L: WE6 19.18, WE12 6.14, WE2 4.94, WE8 3.74, WE13 2.81, WE4 1.82 µg/L (lines 192–197). **[D]** First archived NOAA satellite product in the 2014 package (MODIS Terra, July 21). | Six of six stations at or above 1 µg/L: P3 Early Warning Assessment, supervisory authority notified. WE6 exceeds 10 µg/L (G8, a recreational threshold in a lake sample). For a drinking-water intake, the specification requires raw- and treated-water sampling at the intake; it does not authorize a drinking-water advisory from a lake sample alone. |
+| Jul 24 | **[D]** NOAA product (MODIS Terra) shows its highest-index colours concentrated in Maumee Bay and along the south shore, with about 69% of the western basin visible. | Spatial evidence consistent with the station samples. Recorded as a rendered product, not as a CI value (PCR-1). |
+| Jul 28 | **[D]** Buoy 45005: wind above 7.7 m/s for about 15 h, peak 12.7 m/s. | G4 mixing flag; surface signal depressed artificially. |
+| Jul 29 | **[D]** Second consecutive visit with all six stations at or above 1 µg/L: WE6 37.06, WE12 6.93, WE8 5.85, WE2 3.98, WE13 1.74, WE4 1.01 µg/L (lines 198–203). **[D]** NOAA products on July 29 and July 31. **[D]** Maumee River daily mean rises from 432 ft³/s (Jul 29) to 1,490 ft³/s (Jul 30). | Sustained, basin-wide exceedance in lake samples. Any "safe" or "no action" output is blocked; no clearance gate can pass. Escalation to an advisory decision (P4) requires G9, which needs result-availability times, intake measurements and decoded CI; the public package contains none of these, so the counterfactual does not state a date for an advisory. |
+| Aug 1 | **[D]** NOAA product with about 45% of the western basin visible (mostly cloud or no data). **[P]** A City of Toledo treated-water sample exceeded the 1 µg/L microcystin guideline (evening of August 1). | Entropy Interpolated/Blind: lake-wide estimates withheld (PCR-7); field sampling at the intake mandatory (Section 8.1). Treated-water results are outside the package and are not modelled. |
+| Aug 2–4 | **[P]** City of Toledo do-not-drink advisory, issued early on August 2 and lifted on August 4; roughly 400,000–500,000 residents affected. | Not modelled. Official actions and treated-water data are outside the package. |
+| Aug 4 | **[D]** GLERL visit: WE6 10.14, WE12 9.28, WE2 4.33, WE8 4.31, WE4 1.54, WE13 1.17 µg/L (lines 204–209). **[D]** Two further samples with unregistered site labels, “1-Aug” (8.19 µg/L) and “2-Aug” (10.58 µg/L), at their own recorded coordinates (lines 210–211, flagged). | Lake exceedance continues; G11 reopening cannot pass. The unregistered samples are shown but excluded from station gates until their identity is established. |
+| Aug 11 | **[D]** All six stations still at or above 1 µg/L, including WE2 29.3, WE6 36.7 and WE4 11.4 µg/L (lines 212–217). | Lake reopening gates (G11, G12) are not met. This concerns the lake, not treated water; the treated-water advisory is a different governed object. |
 
-## **12.2 Prohibited Content Rules Applied to Toledo 2014**
+## **12.2 What the Record Shows, and What It Cannot**
 
-| **Rule** | **Historical Failure Mode** | **BloomOS Enforcement** |
+**It shows** that evidence of a basin-wide, toxin-producing bloom existed in public records well before the advisory: one lake station at or above 1 µg/L on July 14, all six on July 21, and all six again on July 29, together with NOAA satellite products showing the bloom concentrated in Maumee Bay.
+
+**It cannot show** treated- or raw-water concentrations at the intake, when any laboratory result became available to the utility, the internal decision timeline, or CI values. Those are exactly the inputs BloomOS needs to authorize an advisory (G9). A claim that BloomOS would have issued an advisory a specific number of days earlier therefore cannot be made from public records, and REV3's "approximately 2 days earlier" is withdrawn.
+
+**The defensible claim** is narrower and, for governance, more important: during the 19 days between July 14 and August 2, every gate that governs a *reassuring* output would have been closed, every observability gap would have been recorded as a gap rather than as a low value, and every escalation step would have been logged with its evidence and authority. The architecture's value here is a complete, contemporaneous record of what was known, when, and what it permitted, not a forecast of a different outcome.
+
+![Gate evaluation on GLERL station WE6's 2014 samples, with each value traced to its source line](docs/screenshots/b-advisories-we6-simulation.jpg)
+
+*Figure 12.2 · BloomOS gates replayed on GLERL WE6 (scenario B). The simulated alert cannot clear, because G12 and H3 require decoded CI that the package does not provide. Every value carries its source CSV line.*
+
+## **12.3 Prohibited Content Rules Applied to the 2014 Record**
+
+| **Rule** | **Application to the 2014 public record** |
+| - | - |
+| PCR-1 (No satellite toxin quantification) | Satellite products are used as rendered spatial evidence. No toxin value is derived from them. |
+| PCR-3 (No "safe" from a single grab sample) | The record does not show a single low sample being used as clearance; on July 21 and July 29 every station exceeded 1 µg/L. PCR-3's role in this window is preventive: any "safe" output would have been blocked. *(REV3 described a 0.8 µg/L clearance on August 6; that event is not in the public record and has been removed.)* |
+| PCR-4 (Lake Erie coefficients in scope) | Not applicable: Toledo's intake is within the calibrated western Lake Erie basin. |
+| PCR-7 (No lake-wide estimate below 40% valid pixels) | Applies around August 1, when about 45% of the western basin was visible in the archived product, and to cloud-limited days generally. |
+| PCR-8 (No CyanNet-only advisory) | Not applicable: no CyanNet in 2014. |
+
+## **12.4 Governance Delta**
+
+| **Dimension** | **Public record (2014)** | **BloomOS counterfactual** |
 | - | - | - |
-| PCR-1 (No satellite toxin quantification) | Not applicable—satellite not integrated into decision chain. | ✓ No CI-derived toxin estimate published. Momentum Report states ‘Biomass Escalation Detected’, not ‘Toxin = X μg/L.’ |
-| PCR-3 (No safe from single grab sample) | Aug 6: Single lab sample at 0.8 μg/L implicitly treated as clearance evidence. | ✓ V3 no-point-claims rule + PCR-3 blocks this. Single sample cannot clear advisory. ProhibitedContentViolation logged. |
-| PCR-4 (Lake Erie coefficients in scope) | N/A—Toledo intake is within calibrated Western Lake Erie basin. | ✓ H4 handshake pre-confirmed for Lake Erie. No cross-lake coefficient transfer issue. |
-| PCR-8 (No CyanNet-only advisory) | Not applicable—no CyanNet in 2014. | ✓ If CyanNet had been used during the Aug 5 wind event, PCR-8 would have blocked any advisory escalation based on CyanNet outputs alone. |
+| First lake sample ≥ 1 µg/L | Jul 14, WE2 **[D]** | P2 surveillance logged with the source sample. |
+| All stations ≥ 1 µg/L | Jul 21 and Jul 29 **[D]** | P3 Early Warning; supervisory authority notified; intake sampling required. |
+| Reassuring outputs | None recorded in the package | Blocked throughout July 14 – August 11 (PCR-3, G11). |
+| Observability gaps | Wind > 7.7 m/s on Jul 15 and Jul 28; partial view on Aug 1 **[D]** | Recorded as Blind/Interpolated, never as low values. |
+| Public action | Do-not-drink advisory Aug 2–4 **[P]** | Not modelled; requires treated-water records. |
+| Audit trail | Measurements are archived; the decision chain is not | Every gate evaluation, handshake and authorization logged in the Flight Recorder. |
+| Lead time | — | Not claimed. Requires result-availability and treated-water records (Section 12.2). |
 
-## **12.3 Governance Delta**
+![Scenario B governance view listing which claims the 2014 evidence supports and which it does not](docs/screenshots/b-governance-claims.jpg)
 
-| **Dimension** | **Historical Response (2014)** | **BloomOS Counterfactual** |
-| - | - | - |
-| First governance signal | Aug 4 (emergency advisory after toxin confirmed) | Aug 2 (Tier 2 advisory triggered by momentum + DI) |
-| Single grab sample accepted as clearance | Yes — 0.8 μg/L lab result implicitly cleared concern | No — PCR-3 + H3 automatic fail blocked clearance |
-| Audit trail | Incomplete — decision chain not logged | Complete — every gate, handshake, and provenance hash in Flight Recorder |
-| Decision driver | Lab turnaround (7 days) as primary trigger | Momentum + Decoherence as primary trigger; lab confirms |
-| Public exposure window | ~3 days of unwarned exposure (Aug 2–4) | Reduced: Tier 2 ‘Elevated Risk’ advisory issued Aug 2 |
-| Regulatory defensibility | Limited audit trail for post-event review | Full replay from Flight Recorder; every gate decision documented |
+*Figure 12.3 · What the 2014 evidence supports (scenario B governance view). 303 of 303 files checksum-verified; satellite-derived scores, drinking-water concentrations, result-availability times and official actions are listed as not supported.*
 
-*Outcome delta: The 2-day earlier advisory issuance would have reduced the public exposure window, allowed earlier voluntary conservation adoption, and shortened the business disruption period. The primary justification for the architecture is preventing the 3-day exposure window for 500,000 people.*
+**Reproduce this section:** the data, sources and checksums are in [`data/public-record`](data/public-record/README.md); the replay is scenario B of the BloomOS console ([video](docs/video/README.md), [screenshots](docs/screenshots/README.md)).
 
 
 # Appendix A: Event Model and Canonical Schemas

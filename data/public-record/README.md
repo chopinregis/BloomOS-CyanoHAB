@@ -1,7 +1,8 @@
 # Public record: western Lake Erie, 2014 and 2019
 
-Downloaded public observations and archived NOAA products for a future retrospective replay
-(scenario B of the BloomOS interface demonstrator). Start with **[Start Here.md](Start%20Here.md)**,
+Downloaded public observations and archived NOAA products behind the retrospective replay
+(scenario B of the BloomOS interface demonstrator, [video](../../docs/video/README.md)) and the
+[Section 12 test against the 2014 record](../../README.md#section-12-counterfactual-pre-mortem--toledo-2014). Start with **[Start Here.md](Start%20Here.md)**,
 then read **[Integration Notes.md](Integration%20Notes.md)** before using any of it.
 
 | Folder / file | Contents |
